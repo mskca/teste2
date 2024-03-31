@@ -1,17 +1,13 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Pétalas -->
-  <circle cx="150" cy="100" r="50" fill="pink" />
-  <circle cx="110" cy="100" r="50" fill="pink" />
-  <circle cx="190" cy="100" r="50" fill="pink" />
-  <circle cx="150" cy="60" r="50" fill="pink" />
-  <circle cx="150" cy="140" r="50" fill="pink" />
+<svg width="300" height="220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Parte superior esquerda do coração (um círculo) -->
+  <circle cx="100" cy="70" r="70" fill="red" />
+  
+  <!-- Parte superior direita do coração (outro círculo) -->
+  <circle cx="200" cy="70" r="70" fill="red" />
+  
+  <!-- Parte inferior do coração (um caminho para formar a ponta) -->
+  <path d="M 30,70 A 70,70 0 0,1 150,210 A 70,70 0 0,1 270,70 L 150,20 Z" fill="red"/>
 
-  <!-- Centro da rosa -->
-  <circle cx="150" cy="100" r="30" fill="red" />
-
-  <!-- Caule -->
-  <rect x="145" y="150" width="10" height="50" fill="green" />
-
-  <!-- Texto dedicando a rosa para Amanda -->
-  <text x="50" y="250" font-family="Verdana" font-size="20" fill="black">Para Amanda, com carinho.</text>
+  <!-- Texto dedicando o coração para Amanda -->
+  <text x="50" y="240" font-family="Verdana" font-size="24" fill="black">Para Amanda, com amor.</text>
 </svg>
